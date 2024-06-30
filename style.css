@@ -1,0 +1,155 @@
+body{
+    background-color: #005c78;
+}
+section{
+    max-width: 500px;
+    margin: auto;
+}
+section{
+    margin: auto;
+}
+/*#calc{
+    position: absolute;
+    background-color: #f3f7ec;
+    width: 40%;
+    height: 100px;
+    border-radius: 10px;
+    border-color: black;
+    left: 30%;
+    right: 30%;
+    top: 25%;
+    box-shadow: 4px 4px 8px 2px rgba(0,0,0,0.5);
+
+}*/
+button{
+    position: absolute;
+    background-color: #e88d67;
+    color: white;
+    width: 40%;
+    height: 5%;
+    top: 40%;
+    left: 30%;
+    right: 30%;
+    font-weight: bold;
+    border-radius: 7px;
+    border-color: #e88d67;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 3px 3px 6px 1px rgba(0,0,0,.5);
+}
+input{
+    font-family: "Poppins", sans-serif;
+    position:absolute;
+    width: 25%;
+    height: 50%;
+    border-radius: 7px;
+    top: 25%;
+    left: 5%;
+    padding: 0 20px;
+    font-size: 14px;
+    background-color: #e88d67;
+    color: white;
+    box-shadow: 3px 3px 6px 1px rgba(0,0,0,.5);
+    border-color: #e88d67;
+}
+#year{
+    position: absolute;
+    background-color: #f3f7ec;
+    width: 8%;
+    border-radius: 10px;
+    border-color: black;
+    left: 30%;
+    top: 50%;
+    box-shadow: 4px 4px 8px 2px rgba(0,0,0,0.5);
+
+}
+#month{
+    position: absolute;
+    background-color: #f3f7ec;
+    width: 8%;
+    border-radius: 10px;
+    border-color: black;
+    left: 46%;
+    top: 50%;
+    box-shadow: 4px 4px 8px 2px rgba(0,0,0,0.5);
+
+}
+#day{
+    position: absolute;
+    background-color: #f3f7ec;
+    width: 8%;
+    border-radius: 10px;
+    left: 62%;
+    top: 50%;
+    box-shadow: 4px 4px 8px 2px rgba(0,0,0,0.5);
+}
+p{
+    position: relative;
+    text-align: center;
+    font-family: "Poppins", sans-serif; 
+}
+h3{
+    position: relative;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+#day_num{
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 4.5%;
+    height: 5%;
+    left: 62%;
+    top: 30%;
+}
+
+#mon_num{
+    color: black;
+    background-color: white;
+    width: 4.5%;
+    height: 5%;
+    left: 46%;
+    top: 30%;
+}
+
+#year_num{
+    color: black;
+    background-color: white;
+    width: 4.5%;
+    height: 5%;
+    left: 30%;
+    top: 30%;
+}
+
+#D{
+    position: absolute;
+    left: 64%;
+    top: 15%;
+    color: white;
+    font-size: 180%;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#M{
+    position: absolute;
+    left: 46.5%;
+    top: 15%;
+    color: white;
+    font-size: 180%;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+#Y{
+    position: absolute;
+    left: 31%;
+    top: 15%;
+    color: white;
+    font-size: 180%;
+    font-style: normal;
+    font-weight: bold;
+}
