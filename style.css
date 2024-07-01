@@ -1,5 +1,20 @@
 body{
-    background-color: #005c78;
+    background-color: #111;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgba(255, 255, 255,0.1);
+    box-shadow: 4px 4px 8px 2px rgba(0,0,0,0.5);
+    width: 50%;
+    height: 70%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 section{
     max-width: 500px;
@@ -23,16 +38,16 @@ section{
 }*/
 button{
     position: absolute;
-    background-color: #e88d67;
+    background-color: red;
     color: white;
     width: 40%;
     height: 5%;
-    top: 40%;
+    top: 50%;
     left: 30%;
     right: 30%;
     font-weight: bold;
     border-radius: 7px;
-    border-color: #e88d67;
+    border-color: red;
     text-align: center;
     font-size: 18px;
     font-style: italic;
@@ -61,7 +76,7 @@ input{
     border-radius: 10px;
     border-color: black;
     left: 30%;
-    top: 50%;
+    top: 63%;
     box-shadow: 4px 4px 8px 2px rgba(0,0,0,0.5);
 
 }
@@ -72,7 +87,7 @@ input{
     border-radius: 10px;
     border-color: black;
     left: 46%;
-    top: 50%;
+    top: 63%;
     box-shadow: 4px 4px 8px 2px rgba(0,0,0,0.5);
 
 }
@@ -82,7 +97,7 @@ input{
     width: 8%;
     border-radius: 10px;
     left: 62%;
-    top: 50%;
+    top: 63%;
     box-shadow: 4px 4px 8px 2px rgba(0,0,0,0.5);
 }
 p{
@@ -91,6 +106,7 @@ p{
     font-family: "Poppins", sans-serif; 
 }
 h3{
+    color: red;
     position: relative;
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -99,34 +115,37 @@ h3{
     position: absolute;
     color: black;
     background-color: white;
+    border-color: red;
     width: 4.5%;
     height: 5%;
-    left: 62%;
-    top: 30%;
+    left: 30%;
+    top: 35%;
 }
 
 #mon_num{
     color: black;
     background-color: white;
+    border-color: red;
     width: 4.5%;
     height: 5%;
     left: 46%;
-    top: 30%;
+    top: 35%;
 }
 
 #year_num{
     color: black;
     background-color: white;
+    border-color: red;
     width: 4.5%;
     height: 5%;
-    left: 30%;
-    top: 30%;
+    left:62%;
+    top: 35%;
 }
 
 #D{
     position: absolute;
-    left: 64%;
-    top: 15%;
+    left: 32%;
+    top: 20%;
     color: white;
     font-size: 180%;
     font-style: normal;
@@ -136,7 +155,7 @@ h3{
 #M{
     position: absolute;
     left: 46.5%;
-    top: 15%;
+    top: 20%;
     color: white;
     font-size: 180%;
     font-style: normal;
@@ -146,10 +165,84 @@ h3{
 
 #Y{
     position: absolute;
-    left: 31%;
-    top: 15%;
+    left: 63%;
+    top: 20%;
     color: white;
     font-size: 180%;
     font-style: normal;
     font-weight: bold;
+}
+
+@media (max-width:950px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        height: 75%;
+    }
+    button{
+
+        width:59%;
+        height: 5%;
+        top: 51%;
+        left: 23%;
+ 
+    }
+    #year{
+        width: 15.5%;
+        height: 15%;
+        left: 23%;
+        top: 63%;
+    }
+    #month{
+        width: 15.5%;
+        height: 15%;
+        left: 45%;
+        top: 63%;
+    }
+    #day{
+        width: 15.5%;
+        height: 15%;
+        left: 66%;
+        top: 63%;
+    }
+
+    #day_num{
+        width: 7%;
+        height: 5%;
+        left: 23%;
+        top: 38%;
+    }
+    
+    #mon_num{
+        width: 7%;
+        height: 5%;
+        left: 44.5%;
+        top: 38%;
+    }
+    
+    #year_num{
+        width: 7%;
+        height: 5%;
+        left:66%;
+        top: 38%;
+    }
+    
+    #D{
+        left: 27%;
+        top: 25%;
+        font-size: 120%;
+    }
+    
+    #M{
+        left: 46%;
+        top: 25%;
+        font-size: 120%;
+    }
+    
+    #Y{
+        left: 68.5%;
+        top: 25%;
+        font-size: 125%;
+    }
 }
